@@ -7,7 +7,7 @@ const { GoogleSpreadsheet } = require("google-spreadsheet");
 
 const readFromSheets = async () => {
   const doc = new GoogleSpreadsheet(
-    "1Ozb7V56X0lRjT2HxjslfukOtYNiwdNFnYfFfqD9UsAs"
+    "SPREADSHEETID AS GIVEN IN THE SHEET URL"
   );
 
   await doc.useServiceAccountAuth(
